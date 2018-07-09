@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "548180846547",
+    "firebase_url": "https://foodaclick.firebaseio.com",
+    "project_id": "foodaclick",
+    "storage_bucket": "foodaclick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:548180846547:android:da74ecf96b3b8371",
+        "android_client_info": {
+          "package_name": "com.foodaclic.livraison"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "548180846547-fc5b802ta39ptrnf9vc169e6s43qoird.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "548180846547-fc5b802ta39ptrnf9vc169e6s43qoird.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACK5hwBTDrn0PEEZ-o2mzAs4jGkQdDKvE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

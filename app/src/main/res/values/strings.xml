@@ -1,0 +1,242 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+  <string name="app_name">UrbanDeliv</string>
+  <string name="error_no_network">Pas de connexion internet.</string>
+  <string name="error_server">Erreur serveur</string>
+
+  <string name="title_activity_main">UrbanDeliv</string>
+
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+
+  <string name="action_settings" tools:ignore="UnusedResources">Settings</string>
+  <string name="geomy" tools:ignore="UnusedResources">Geomy</string>
+  <string name="ebenyx" tools:ignore="UnusedResources">Ebenyx Technologies</string>
+
+  <string name="refresh" tools:ignore="UnusedResources">Rafraichir</string>
+  <string name="profil" tools:ignore="UnusedResources">Profil</string>
+  <string name="deconnect">Déconnexion</string>
+  <string name="approvisionnement">Approvisionnement</string>
+  <string name="vente">Vente</string>
+  <string name="recourvement">Recouvrement</string>
+  <string name="versement" tools:ignore="UnusedResources">Versement</string>
+  <string name="concurrency" tools:ignore="UnusedResources">Concurence</string>
+  <string name="concurence">Veille concurrentielle</string>
+  <string name="recapitulatif" tools:ignore="UnusedResources">Recapitulatif</string>
+  <string name="dashboard">Tableau de bord</string>
+  <string name="command" tools:ignore="UnusedResources">Commande</string>
+
+  <string name="account_title" tools:ignore="UnusedResources">Mon compte</string>
+  <string name="title_activity_login" tools:ignore="UnusedResources">Connexion</string>
+
+  <!-- Strings related to login -->
+  <string name="prompt_email" tools:ignore="UnusedResources">Email</string>
+  <string name="prompt_password" tools:ignore="UnusedResources">Password (optional)</string>
+  <string name="action_sign_in" tools:ignore="UnusedResources">Sign in or register</string>
+  <string name="action_sign_in_short" tools:ignore="UnusedResources">Sign in</string>
+  <string name="error_invalid_email" tools:ignore="UnusedResources">This email address is invalid</string>
+  <string name="error_invalid_password" tools:ignore="UnusedResources">This password is too short</string>
+  <string name="error_incorrect_password" tools:ignore="UnusedResources">This password is incorrect</string>
+  <string name="error_field_required" tools:ignore="UnusedResources">Ce champ est obligatoire</string>
+  <string name="permission_rationale" tools:ignore="UnusedResources">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+  <string name="password_hint" tools:ignore="UnusedResources">Mot de passe</string>
+  <string name="login_hint" tools:ignore="UnusedResources">Login</string>
+  <string name="login_label" tools:ignore="UnusedResources">Connectez-vous</string>
+  <string name="salepoint" tools:ignore="UnusedResources">Nouveau PDV</string>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment" tools:ignore="UnusedResources">Hello blank fragment</string>
+  <string name="quantity" tools:ignore="UnusedResources">Quantité</string>
+  <string name="stock" tools:ignore="UnusedResources">Stock</string>
+
+  <string name="frsSearchHint" tools:ignore="UnusedResources">Fournisseur</string>
+  <string name="initStock" tools:ignore="UnusedResources">Stock initial</string>
+  <string name="approStock" tools:ignore="UnusedResources">Approvisionnement</string>
+  <string name="frsStock" tools:ignore="UnusedResources">Fournisseur</string>
+  <string name="dispoStock" tools:ignore="UnusedResources">Quantité</string>
+  <string name="achalandage" tools:ignore="UnusedResources">Achalandage</string>
+  <string name="venteHint" tools:ignore="UnusedResources">Vente</string>
+  <string name="cltSearchHint" tools:ignore="UnusedResources">Client</string>
+  <string name="searchHint" tools:ignore="UnusedResources">Rechercher</string>
+  <string name="labelDate" tools:ignore="UnusedResources">Date</string>
+  <string name="labelNumFac" tools:ignore="UnusedResources">N° Facture</string>
+  <string name="labelFrs" tools:ignore="UnusedResources">Fournisseur</string>
+  <string name="labelMontant" tools:ignore="UnusedResources">Montant</string>
+  <string name="amount" tools:ignore="UnusedResources">Montant</string>
+  <string name="valid">Valider</string>
+  <string name="labelClt" tools:ignore="UnusedResources">Client</string>
+  <string name="title_activity_validpaie" tools:ignore="UnusedResources">Paiement</string>
+  <string name="sale" tools:ignore="UnusedResources">Vente</string>
+  <string name="procurement" tools:ignore="UnusedResources">Approvisionnement</string>
+  <string name="title_activity_profil" tools:ignore="UnusedResources">Mon profil</string>
+  <string name="num_facture" tools:ignore="UnusedResources">Facture N°</string>
+  <string name="labelDateFac" tools:ignore="UnusedResources">Date d\'achat</string>
+  <string name="totalFac">Total Facture</string>
+  <string name="soldeFac" tools:ignore="UnusedResources">Solde reglé</string>
+  <string name="resteFac" tools:ignore="UnusedResources">Reste à regler</string>
+  <string name="newMontant" tools:ignore="UnusedResources">Montant à regler</string>
+  <string name="restantFac" tools:ignore="UnusedResources">Montant restant</string>
+  <string name="prestataire" tools:ignore="UnusedResources">Point de vente</string>
+  <string name="greaterAmount" tools:ignore="UnusedResources">Montant trop elévé</string>
+
+  <string name="lbl_nom" tools:ignore="UnusedResources">Nom :</string>
+  <string name="lbl_prenom" tools:ignore="UnusedResources">Prenom :</string>
+  <string name="lbl_pseudo" tools:ignore="UnusedResources">Pseudo :</string>
+  <string name="lbl_matricule" tools:ignore="UnusedResources">Matricule :</string>
+  <string name="lbl_email" tools:ignore="UnusedResources">Email :</string>
+  <string name="lbl_contact" tools:ignore="UnusedResources">Contact :</string>
+  <string name="lbl_fonction" tools:ignore="UnusedResources">Fonction :</string>
+  <string name="lbl_zone" tools:ignore="UnusedResources">Ma Zone :</string>
+  <string name="lbl_quantity" tools:ignore="UnusedResources">Quantité :</string>
+  <string name="lbl_amount" tools:ignore="UnusedResources">Montant :</string>
+  <string name="lbl_stock" tools:ignore="UnusedResources">Stock : </string>
+  <string name="lbl_reste" tools:ignore="UnusedResources">Reste : </string>
+
+  <string name="progess_objectif" tools:ignore="UnusedResources">Vous etes à 50% de vos objectifs</string>
+  <string name="emailIsEmpty">Entrez votre adresse email</string>
+  <string name="passwordIsEmpty">Entrez votre mot de passe</string>
+
+  <string name="login_failed" tools:ignore="UnusedResources">Mot de passe ou email incorrect.</string>
+  <string name="login_succed" tools:ignore="UnusedResources">Connexion réussie.</string>
+  <string name="data_dialog" tools:ignore="UnusedResources">loading data...</string>
+  <string name="hint_recipient" tools:ignore="UnusedResources">Rechercher un point de vente</string>
+  <string name="searchActor" tools:ignore="UnusedResources">Rechercher l\'acteur, veuillez tagger ou rechercher manuellement</string>
+  <string name="labelSerial" tools:ignore="UnusedResources">Matricule</string>
+  <string name="labelFullName"><![CDATA[Prénom Nom]]></string>
+  <string name="labelPseudo" tools:ignore="UnusedResources">Pseudo</string>
+  <string name="labelPhone" tools:ignore="UnusedResources">Téléphone</string>
+  <string name="title_activity_procure">Approvisionnement</string>
+  <string name="title_activity_sale" tools:ignore="UnusedResources">Vente</string>
+  <string name="order" tools:ignore="UnusedResources">Facture d\'approvisionnement du :</string>
+  <string name="totalPaid" tools:ignore="UnusedResources">total rendu</string>
+  <string name="progressLoad" tools:ignore="UnusedResources">Waitting...</string>
+  <string name="stockState" tools:ignore="UnusedResources">Stock initial</string>
+  <string name="resteStock" tools:ignore="UnusedResources">Stock restant</string>
+  <string name="payment" tools:ignore="UnusedResources">Versement</string>
+  <string name="success_reglement" tools:ignore="UnusedResources">Règlement enregistré avec succès</string>
+  <string name="success_invoice" tools:ignore="UnusedResources">Facture enregistrée avec succès</string>
+  <string name="invalide_stock">stock insuffisant</string>
+  <string name="qteEmpty" tools:ignore="UnusedResources">Veuillez saisir la quantité vendu</string>
+  <string name="good">Bon</string>
+  <string name="bad">Mauvais</string>
+  <string name="success_traffic">Achalandage éffectué avec succès</string>
+  <string name="comment">Commentaire</string>
+  <string name="edit_comment" tools:ignore="UnusedResources">Saisissez votre commentaire ici...</string>
+  <string name="visibility" tools:ignore="UnusedResources">Visibilité</string>
+  <string name="share_stock" tools:ignore="UnusedResources">Part de stock</string>
+  <string name="error_traffic">Erreur lord de l\'envoi de l\'achalandage</string>
+  <string name="cancel" tools:ignore="UnusedResources">Annuler</string>
+  <string name="available_stock" tools:ignore="UnusedResources">Stock indisponible</string>
+  <string name="labelLastName">Nom</string>
+  <string name="lbl_adresse" tools:ignore="UnusedResources">Adresse</string>
+  <string name="waitting" tools:ignore="UnusedResources">Waitting...</string>
+  <string name="new_retailer" tools:ignore="UnusedResources">Création d\'un nouveau détaillant</string>
+  <string name="new_dmg" tools:ignore="UnusedResources">Création d\'un nouveau démi grossiste</string>
+  <string name="validpoint" tools:ignore="UnusedResources">Autoriser un PDV</string>
+  <string name="title_activity_new_pos" tools:ignore="UnusedResources">Nouveau point de vente</string>
+  <string name="success_pos" tools:ignore="UnusedResources">Nouveau point de vente créé avec succès</string>
+  <string name="title_activity_allow_pos" tools:ignore="UnusedResources">Autoriser un point de vente</string>
+  <string name="labelMarket" tools:ignore="UnusedResources">Marché</string>
+  <string name="labelSector" tools:ignore="UnusedResources">Secteur</string>
+  <string name="rejet" tools:ignore="UnusedResources">Rejeter</string>
+  <string name="allow" tools:ignore="UnusedResources">Autoriser</string>
+  <string name="labelFirstName">Prénom</string>
+  <string name="success_allow" tools:ignore="UnusedResources">Autorisation effectuée avec succès</string>
+  <string name="error_allow" tools:ignore="UnusedResources">Erreur lors de l\'enregistrement</string>
+  <string name="retailer_create" tools:ignore="UnusedResources">Nouveau détaillant</string>
+  <string name="add_retailer" tools:ignore="UnusedResources">Ajout d\'un nouveau détaillant dans votre zone.</string>
+  <string name="retailer_update" tools:ignore="UnusedResources">Mise à jour d\'un détaillant</string>
+  <string name="updated_retailer" tools:ignore="UnusedResources">L\'autorisation d\'un détaillant à été mise à jour.</string>
+  <string name="title_activity_alert" tools:ignore="UnusedResources">Alert</string>
+  <string name="success_updated" tools:ignore="UnusedResources">Point de vente mis à jour avec succès.</string>
+  <string name="no_image" tools:ignore="UnusedResources">Aucune image</string>
+  <string name="confirm_msg" tools:ignore="UnusedResources">Voulez-vous envoyer les données sans la photo?</string>
+  <string name="no" tools:ignore="UnusedResources">Non</string>
+  <string name="yes" tools:ignore="UnusedResources">Oui</string>
+  <string name="product_concurent" tools:ignore="UnusedResources">Saisissez la quantité d\'un produit concurent au minimum.</string>
+  <string name="retailer" tools:ignore="UnusedResources">Détaillants</string>
+  <string name="retailers" tools:ignore="UnusedResources">Mes détaillants</string>
+  <string name="out_market" tools:ignore="UnusedResources">Vous êtes hors du marché</string>
+  <string name="goal_completed" tools:ignore="UnusedResources">Objectif atteint.</string>
+  <string name="goal_being" tools:ignore="UnusedResources">Votre objectif est atteint à : </string>
+  <string name="no_goal" tools:ignore="UnusedResources">Aucun objectif vous a été assigné.</string>
+  <string name="success_save_offline" tools:ignore="UnusedResources">Enregistrement hors connexion effectué.</string>
+  <string name="promotion" tools:ignore="UnusedResources">Promotion</string>
+  <string name="data_loading" tools:ignore="UnusedResources">Chargement des données</string>
+  <string name="data_load" tools:ignore="UnusedResources">Chargement des données</string>
+  <string name="labelTitle" tools:ignore="UnusedResources">Titre</string>
+  <string name="labelBegin" tools:ignore="UnusedResources">Du</string>
+  <string name="labelEnd" tools:ignore="UnusedResources">Au</string>
+  <string name="new_stock" tools:ignore="UnusedResources">Nouveau stock</string>
+  <string name="sale_one_product" tools:ignore="UnusedResources">Enregistrez au moins un produit avant de valider la vente</string>
+  <string name="current_stock" tools:ignore="UnusedResources">Stock actuel</string>
+  <string name="commande" tools:ignore="UnusedResources">Passer une commande</string>
+  <string name="title_activity_commande" tools:ignore="UnusedResources">Commande</string>
+  <string name="title_activity_new_cmd" tools:ignore="UnusedResources">Nouvelle Commande</string>
+  <string name="value" tools:ignore="UnusedResources">Valeur</string>
+  <string name="cmdDate" tools:ignore="UnusedResources">Date de la commande</string>
+  <string name="labelTotal" tools:ignore="UnusedResources">Montant total</string>
+  <string name="update" tools:ignore="UnusedResources">Modifier</string>
+  <string name="update_cmd" tools:ignore="UnusedResources">Modifier une commande</string>
+  <string name="success_cmd" tools:ignore="UnusedResources">Commande enregistrée avec succès.</string>
+  <string name="moyen">Moyen</string>
+  <string name="receive" tools:ignore="UnusedResources">Bien réçu</string>
+  <string name="command_updared" tools:ignore="UnusedResources">Mise à jour d\'une commande</string>
+  <string name="stock_enter" tools:ignore="UnusedResources">Veuillez saisir le stock</string>
+  <string name="stock_avaible" tools:ignore="UnusedResources">Stock disponible</string>
+  <string name="cardboard" tools:ignore="UnusedResources">Carton(s)</string>
+
+  <string name="please" tools:ignore="UnusedResources">Patientez s\'il vous plaît ...</string>
+  <string name="blank">Champ(s) vide(s)</string>
+  <string name="char_min">Minimum 4 caracteres</string>
+  <string name="connexion" tools:ignore="UnusedResources">Connexion en cours</string>
+  <string name="patientez" tools:ignore="UnusedResources">Veuillez patientez</string>
+  <string name="invalid_quantity" tools:ignore="UnusedResources">Quantité invalide</string>
+  <string name="transmission_successful" tools:ignore="UnusedResources">Transmission réussie</string>
+  <string name="transmission_failed" tools:ignore="UnusedResources">La transmission a échoué</string>
+  <string name="radio_off" tools:ignore="UnusedResources">Radio Off</string>
+  <string name="no_pdu" tools:ignore="UnusedResources">Aucun PDU défini</string>
+  <string name="no_service" tools:ignore="UnusedResources">Aucun service</string>
+  <string name="delivered" tools:ignore="UnusedResources">Livré</string>
+  <string name="amount_type" tools:ignore="UnusedResources">Veuillez saisir un montant</string>
+  <string name="bad_checked" tools:ignore="UnusedResources">Mauvais</string>
+  <string name="moyen_checked" tools:ignore="UnusedResources">Moyen</string>
+  <string name="good_checked" tools:ignore="UnusedResources">Bon</string>
+  <string name="quantity_cmd" tools:ignore="UnusedResources">Quantité commandée</string>
+  <string name="title_activity_brand">Gammes</string>
+  <string name="title_activity_product">Produits</string>
+  <string name="title_activity_basket">Panier</string>
+  <string name="title_activity_goal">Objectifs</string>
+  <string name="title_activity_recovery">Recouvrement</string>
+  <string name="title_activity_catalog">Catalogue</string>
+  <string name="title_activity_client">Clients</string>
+  <string name="title_activity_stock">Stock</string>
+  <string name="title_activity_order">Commandes</string>
+  <string name="title_activity_order_details">Details commande</string>
+  <string name="title_activity_recovery_details">Details</string>
+  <string name="title_activity_summary">Recapitulatif</string>
+  <string name="title_activity_flip">Catalogue</string>
+  <string name="title_activity_performances">Performances</string>
+  <string name="title_activity_kilometer">Kilometrage</string>
+  <string name="title_activity_profile">Profil</string>
+  <string name="title_activity_achalandage">Geomy</string>
+  <string name="title_activity_client_order">Geomy</string>
+  <string name="title_activity_procure_details">Details</string>
+  <string name="title_activity_payment">Versements</string>
+  <string name="title_activity_customer_history">Dernieres visites</string>
+  <string name="title_activity_promo">Promotions</string>
+  <string name="title_activity_customer_history_details">Details</string>
+  <string name="title_activity_product_scan">Geomy</string>
+  <string name="title_activity_product_details">Geomy</string>
+  <string name="title_activity_menu_visit">Geomy</string>
+  <string name="title_paired_devices">Match equipment</string>
+  <string name="title_other_devices">Autres equipements</string>
+  <string name="scanning">Scanning Device&#8230;</string>
+  <string name="select_device">Select the connected device</string>
+  <string name="none_paired">No matching devices</string>
+  <string name="none_found">No device found</string>
+  <string name="button_scan">Scanning device</string>
+
+</resources>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    >
+
+  <android.support.v7.widget.CardView
+
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:padding="5dp"
+      card_view:cardCornerRadius="3dp"
+      card_view:cardElevation="2dp"
+      >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informations client"
+            android:fontFamily="@font/regular"/>
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="@color/black"/>
+
+      <TextView
+          android:id="@+id/label_client"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Alle Modeste Aristide"
+          android:textSize="18sp"
+          android:textColor="#000"
+          android:fontFamily="@font/bold"/>
+
+      <TextView
+          android:id="@+id/label_start"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Rue lemire"
+          android:textSize="17sp"
+          android:layout_marginTop="3dp"
+          android:layout_marginBottom="3dp"
+          android:drawableLeft="@drawable/marker_24"
+          android:drawableTint="@color/bleu"
+          android:textColor="@color/bleu"
+          android:fontFamily="@font/regular"/>
+      <TextView
+          android:id="@+id/label_phone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="77347638"
+          android:fontFamily="@font/regular"/>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:layout_margin="2dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:textColor="@color/greyLogo"
+            android:text="Code commande: "
+            android:fontFamily="@font/regular"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="#C43546758"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:fontFamily="@font/bold"/>
+
+      </LinearLayout>
+
+      <TextView
+          android:id="@+id/text_status"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="(Pas encore prete)"
+          android:textSize="18sp"
+          android:textColor="#f00"
+          android:fontFamily="@font/bold"/>
+
+<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:background="#000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="2dp">
+      <TextView
+
+          android:layout_width="wrap_content"
+          android:textColor="@color/greyLogo"
+          android:text="Resto: "
+          android:fontFamily="@font/regular"
+          android:layout_height="wrap_content" />
+
+      <TextView
+          android:id="@+id/text_restau"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Chez Tantie Ahou"
+          android:textSize="18sp"
+          android:textColor="#000"
+          android:fontFamily="@font/bold"/>
+    </LinearLayout>
+      <TextView
+          android:id="@+id/label_end"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="5 Rue Chateauguay"
+          android:textSize="17sp"
+          android:layout_marginTop="3dp"
+          android:layout_marginBottom="3dp"
+          android:drawableLeft="@drawable/marker_24"
+          android:drawableTint="@color/bleu"
+          android:textColor="@color/bleu"
+          android:fontFamily="@font/regular"/>
+      <TextView
+          android:id="@+id/label_date"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Date commande : 12/06/2018 a 15h16"
+          android:fontFamily="@font/regular"/>
+
+      <TextView
+
+          android:layout_width="wrap_content"
+          android:textColor="@color/greyLogo"
+          android:text="Plat commande: "
+          android:fontFamily="@font/regular"
+          android:layout_height="wrap_content" />
+
+      <TextView
+          android:id="@+id/label_plat"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="10 foutou sauce graine"
+          android:textSize="18sp"
+          android:textColor="#000"
+          android:fontFamily="@font/bold"/>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:gravity="right"
+          android:layout_margin="2dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:textColor="@color/greyLogo"
+            android:text="Pourboire: "
+            android:fontFamily="@font/regular"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$92"
+            android:textSize="18sp"
+            android:textColor="#f00"
+            android:fontFamily="@font/bold"/>
+      </LinearLayout>
+      <Button
+          android:id="@+id/btn_take"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="@color/ocre"
+          android:text="Prendre en charge"
+          android:fontFamily="@font/bold"
+          />
+    </LinearLayout>
+
+  </android.support.v7.widget.CardView>
+
+</LinearLayout>

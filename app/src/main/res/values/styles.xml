@@ -1,0 +1,58 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/bleu</item>
+    <item name="colorPrimaryDark">@color/bleu</item>
+    <item name="colorAccent">@color/black</item>
+  </style>
+
+  <style name="NavigationTheme" parent="AppTheme">
+    <item name="android:textSize">16sp</item>
+    <item name="android:layout_marginBottom">02dp</item>
+    <item name="android:activatedBackgroundIndicator">@color/color_light_red</item>
+  </style>
+
+  <style name="FullscreenTheme" parent="@style/Theme.AppCompat.Light">
+    <item name="windowNoTitle">true</item>
+    <item name="windowActionBar">false</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="colorPrimary">@color/bleu</item>
+    <item name="colorPrimaryDark">@color/bleu</item>
+    <item name="colorAccent">@color/black</item>
+  </style>
+
+  <style name="mytheme" parent="Theme.AppCompat.Light.Dialog">
+    <item name="windowNoTitle">true</item>
+  </style>
+  <style name="SplashTheme" parent="FullscreenTheme">
+
+  </style>
+
+
+  <style name="AppTheme.NoActionBar">
+    <item name="windowActionBar">false</item>
+    <item name="windowNoTitle">true</item>
+  </style>
+
+  <style name="EditTextStyleLoginRegistration" parent="@style/Widget.AppCompat.EditText">
+    <item name="android:textColorHint">@color/colorTextGeneric</item>
+    <item name="android:textColor">@color/black</item>
+
+    <item name="colorControlNormal">@android:color/white</item>
+    <item name="colorControlActivated">@android:color/white</item>
+    <item name="colorControlHighlight">@android:color/white</item>
+  </style>
+
+
+  <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+  <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+  </style>
+
+  <style name="SpinnerStyle.Underlined" parent="Widget.AppCompat.Spinner.Underlined"/>
+
+</resources>
