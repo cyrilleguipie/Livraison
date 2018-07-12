@@ -72,6 +72,10 @@
     </service>
 
     <service
+        android:name=".service.LogoutService">
+    </service>
+
+    <service
         android:name=".service.LocationTrack">
     </service>
   </application>

@@ -63,7 +63,7 @@ public class DataFetchService extends IntentService {
 
 
   private void fetch() {
-    mBus.post(new NetworkOperationEvent(NetworkOperationEvent.HAS_STARTED, ""));
+    mBus.post(new NetworkOperationEvent(NetworkOperationEvent.HAS_STARTED, "Chargement des commandes ..."));
 
     Call<ResponseBody> result = RestClient.getRestService().fetch(MainApplication.getPrefs().getString("userliv","")
         , MainApplication.getPrefs().getString("livcouverture", ""));

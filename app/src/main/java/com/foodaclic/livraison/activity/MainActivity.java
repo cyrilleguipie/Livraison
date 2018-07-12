@@ -35,6 +35,7 @@ import com.foodaclic.livraison.classes.Commande;
 import com.foodaclic.livraison.classes.User;
 import com.foodaclic.livraison.service.DataFetchService;
 import com.foodaclic.livraison.service.LocationTrack;
+import com.foodaclic.livraison.service.LogoutService;
 import com.foodaclic.livraison.service.PayService;
 import com.foodaclic.livraison.service.gcm.GcmRegistrationService;
 import com.foodaclic.livraison.utils.Constants;
@@ -91,16 +92,8 @@ public class MainActivity extends AppCompatActivity  implements  SwipeRefreshLay
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_logout) {
-            Commande.deleteAll();
-            User.deleteAll();
-            MainApplication.getPrefs().putInt(Constants.USER_ID, 0);
-            MainApplication.getPrefs().putString("userliv", "");
-            MainApplication.getPrefs().putString("livcouverture", "");
-            MainApplication.getPrefs().putString("total_pb", "");
-            MainApplication.getPrefs().putString("liv", "");
-            MainApplication.getPrefs().putString("todo", "");
-            startActivity(new Intent(MainActivity.this, SplashActivity.class));
-            finish();
+            startService(new Intent(MainActivity.this, LogoutService.class));
+
             return true;
         }
 
@@ -167,7 +160,7 @@ public class MainActivity extends AppCompatActivity  implements  SwipeRefreshLay
 
         // Log.i(LOG_TAG, "I received an event : " + event.getClass().getName() + " : " + event.getMessage());
         if (event.hasStarted()) {
-            Toast.makeText(this, "Chargement des donnees ...", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, event.getMessage(), Toast.LENGTH_SHORT).show();
         } else if (event.hasFinishedOne()) {
           updateHeader();
             takePay((int)event.getId());
@@ -187,6 +180,18 @@ public class MainActivity extends AppCompatActivity  implements  SwipeRefreshLay
             updateHeader();
             Toast.makeText(this, event.getMessage(), Toast.LENGTH_SHORT).show();
 
+        }else if(event.hasRoute()){
+          Toast.makeText(this, event.getMessage(), Toast.LENGTH_SHORT).show();
+          Commande.deleteAll();
+          User.deleteAll();
+          MainApplication.getPrefs().putInt(Constants.USER_ID, 0);
+          MainApplication.getPrefs().putString("userliv", "");
+          MainApplication.getPrefs().putString("livcouverture", "");
+          MainApplication.getPrefs().putString("total_pb", "");
+          MainApplication.getPrefs().putString("liv", "");
+          MainApplication.getPrefs().putString("todo", "");
+          startActivity(new Intent(MainActivity.this, SplashActivity.class));
+          finish();
         }
     }
 

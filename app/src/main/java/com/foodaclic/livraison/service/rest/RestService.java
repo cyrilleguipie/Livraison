@@ -39,6 +39,10 @@ public interface RestService {
         @Field("password") String password);
 
     @FormUrlEncoded
+    @POST("api/logout.php")
+    Call<ResponseBody> logout(@Field("id") int id);
+
+    @FormUrlEncoded
     @POST("api/getOrders.php")
     Call<ResponseBody> fetch(@Field("userliv") String userliv, @Field("livcouverture") String livcouverture);
 

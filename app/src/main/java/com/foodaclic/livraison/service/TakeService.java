@@ -59,7 +59,7 @@ public class TakeService extends IntentService {
   }
 
   private void pay(final int id, final String code, String reception, String pourboire) {
-    mBus.post(new NetworkOperationEvent(NetworkOperationEvent.HAS_STARTED, ""));
+    mBus.post(new NetworkOperationEvent(NetworkOperationEvent.HAS_STARTED, "Prise de la commande"));
 
     Call<ResponseBody> result = RestClient.getRestService().take(id, MainApplication.getPrefs().getString("userliv", ""), code, reception, pourboire);
     result.enqueue(new Callback<ResponseBody>() {

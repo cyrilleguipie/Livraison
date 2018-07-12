@@ -59,7 +59,7 @@ public class PayService extends IntentService {
   }
 
   private void pay(final int id) {
-    mBus.post(new NetworkOperationEvent(NetworkOperationEvent.HAS_STARTED, ""));
+    mBus.post(new NetworkOperationEvent(NetworkOperationEvent.HAS_STARTED, "Validation de la commande ..."));
 
     Call<ResponseBody> result = RestClient.getRestService().pay(id, MainApplication.getPrefs().getString("userliv", ""));
     result.enqueue(new Callback<ResponseBody>() {
